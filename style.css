@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+
+#navigationBar {
+  position: fixed;
+  width: 185vh;
+  height: 40px;
+  background-color: #eee;
+  display: flex;
+  justify-content: space-around;
+}
+
+#mainContainer {
+}
+
+#parallax {
+  background-image: url('https://thechive.com/wp-content/uploads/2019/11/birds-are-not-real-theyre-government-spy-drones-heres-proof-18.jpg?quality=85&strip=info&w=600');
+  height: 1050px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mainTitleText {
+  padding-top: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80pt;
+  color: white;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+#subtitleText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20pt;
+  color: white;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+.sectionHeader {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 32pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 12pt;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+.thumbnailContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumbnailImage {
+  width: 33%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.columnContainer {
+  display: flex;
+}
+
+.contentSectionContainer {
+  margin-left: 64px;
+  margin-right: 64px;
+
+}
