@@ -13,18 +13,27 @@ body {
 
 
 #navigationBar {
-  position: fixed;
   width: 185vh;
-  height: 40px;
+  height: 60px;
   background-color: #eee;
   display: flex;
+  margin: auto;
+  align-content: center;
+  justify-content: space-around;
+}
+
+#navBarFont {
+  font-family: 'Rubik Mono One', sans-serif;
+  display: flex;
+  margin: auto;
+  align-content: center;
   justify-content: space-around;
 }
 
 #mainContainer {
 }
 
-#parallax {
+#parallaxTop {
   background-image: url('https://thechive.com/wp-content/uploads/2019/11/birds-are-not-real-theyre-government-spy-drones-heres-proof-18.jpg?quality=85&strip=info&w=600');
   height: 1050px;
   background-attachment: fixed;
@@ -33,12 +42,41 @@ body {
   background-size: cover;
 }
 
+#parallaxTopPageTwo {
+  background-image: url('https://i.pinimg.com/originals/fc/11/86/fc118648ee64496753202930e1c16bc4.jpg');
+  height: 1050px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallaxTopPageThree {
+  background-image: url('https://regmedia.co.uk/2019/02/01/evilpigeon.jpg?x=442&y=293&crop=1');
+  height: 1050px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallaxMid {
+  background-image: url('https://www.audubon.org/sites/default/files/apa_2016-a1_2055_4_rock-pigeon_laura_perrotta_kk.jpg');
+  height: 435px;
+  width: 50%;
+  margin-left: 25%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #mainTitleText {
   padding-top: 450px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  margin: auto;
   font-size: 80pt;
+  text-align: center;
   color: white;
   font-family: 'Rubik Mono One', sans-serif;
 }
@@ -60,8 +98,37 @@ body {
   align-items: center;
 }
 
+#quoteBlock {
+  font-size: 30px;
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+#quoteCredit {
+  font-size: 30px;
+  width: 50%;
+  margin: auto;
+  text-align: right;
+  margin-bottom: 50px;
+}
+
 p {
-  font-size: 12pt;
+  font-size: 16pt;
+  font-family: sans-serif;
+  margin: auto;
+  width: 75%;
+  line-height: 35px;
+  margin-bottom: 50px;
+
+}
+
+h1 {
+  font-size: 90pt;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: white;
   font-family: 'Rubik Mono One', sans-serif;
 }
 
@@ -78,10 +145,37 @@ p {
 
 .columnContainer {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
 }
 
-.contentSectionContainer {
-  margin-left: 64px;
-  margin-right: 64px;
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid gray;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
 
+input[type=submit] {
+  background-color: blue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formContainer {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 100px;
 }
