@@ -163,14 +163,12 @@ h1 {
   margin-bottom: 50px;
 }
 
-
 .thumbnailImage {
   width: 50%;
   object-fit: cover;
 }
 
-
-
+/*css for form on page 3 */
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
