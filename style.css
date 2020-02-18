@@ -14,11 +14,18 @@ body {
 #navigationBar {
   width: 185vh;
   height: 60px;
-  background-color: #eee;
+  background-color: #79a680;
   display: flex;
   margin: auto;
   align-content: center;
   justify-content: space-around;
+}
+
+a.link {
+  color: white;
+}
+a.visited {
+  color: yellow;
 }
 
 #navBarFont {
@@ -61,10 +68,13 @@ body {
 
 #parallaxMid {
   background-image: url('https://www.audubon.org/sites/default/files/apa_2016-a1_2055_4_rock-pigeon_laura_perrotta_kk.jpg');
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
   height: 550px;
   width: 550px;
   border-radius: 275px;
-  margin-left: 35%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -144,6 +154,22 @@ h1 {
   width: 50%;
   margin: auto;
 }
+
+#bodyImages {
+  display: flex;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+
+.thumbnailImage {
+  width: 50%;
+  object-fit: cover;
+}
+
+
 
 input[type=text], select, textarea {
   width: 100%;
