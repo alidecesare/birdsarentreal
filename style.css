@@ -11,7 +11,6 @@ body {
   font-family: sans-serif;
 }
 
-
 #navigationBar {
   width: 185vh;
   height: 60px;
@@ -136,18 +135,6 @@ h1 {
 
 #boldHeader {
   font-size: 100pt;
-
-}
-
-.thumbnailContainer {
-  display: flex;
-  justify-content: space-between;
-}
-
-.thumbnailImage {
-  width: 33%;
-  height: 300px;
-  object-fit: cover;
 }
 
 .columnContainer {
