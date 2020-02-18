@@ -62,13 +62,15 @@ body {
 
 #parallaxMid {
   background-image: url('https://www.audubon.org/sites/default/files/apa_2016-a1_2055_4_rock-pigeon_laura_perrotta_kk.jpg');
-  height: 435px;
-  width: 50%;
-  margin-left: 25%;
+  height: 550px;
+  width: 550px;
+  border-radius: 275px;
+  margin-left: 35%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border: 7px solid black;
 }
 
 #mainTitleText {
@@ -124,12 +126,17 @@ p {
 }
 
 h1 {
-  font-size: 90pt;
+  font-size: 50pt;
   width: 100%;
+  margin-top: 150px;
   margin: auto;
   text-align: center;
-  color: white;
   font-family: 'Rubik Mono One', sans-serif;
+}
+
+#boldHeader {
+  font-size: 100pt;
+
 }
 
 .thumbnailContainer {
